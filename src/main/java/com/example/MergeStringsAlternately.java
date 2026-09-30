@@ -2,8 +2,9 @@ package com.example;
 
 public class MergeStringsAlternately {
     public static void main(String[] args) {
-        merge("abc","abcde");
-}
+        merge("abc", "abcde");
+    }
+
     public static String merge(String word1, String word2) {
         StringBuilder sb = new StringBuilder();
         int n1 = word1.length();
@@ -21,4 +22,4 @@ public class MergeStringsAlternately {
 
         return sb.toString();
     }
-    }
+}
